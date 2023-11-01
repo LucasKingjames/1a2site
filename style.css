@@ -15,9 +15,8 @@ padding: 20px 0;/* espaço em cima e embnaixo do cabeçalho - espaçamento inter
 
 nav{
    position: absolute;
-   top: 110px;
-   right: 0;
-
+   top: 297px;
+   right: 267px;
 }
 nav li{
     display: inline;
