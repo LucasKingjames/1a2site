@@ -1,4 +1,29 @@
-img{
- margin-left: 600px;
+header{
+background-color: rgb(9, 9, 43);
+padding: 20px 0;/* espaço em cima e embnaixo do cabeçalho - espaçamento interno*/
+}
 
+.caixa{
+    position: relative;/*menu dentro da caixa*/
+    width: 940px;/*largura da caixa*/
+    margin: 0 auto;relative
+}
+
+nav{
+   position: absolute;
+   top: 110px;
+   right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;/*espaçamento interno*/
+}
+
+nav a{
+    text-transform: uppercase; /* letra maiúscula*/
+    color: rgb(216, 238, 250); /* cor das letras brancas*/
+    font-weight: bold; /* fonte negrito*/
+    font-size: 22px; /*tamanho da fonte*/
+    text-decoration: none;/* retirar o sublinhado do texto*/
 }
